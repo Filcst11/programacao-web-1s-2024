@@ -23,6 +23,7 @@ let divisao = d1 / d2
 //2- Para cada resultado obtido, imprima o texto "Resultado da {operação} entre {num_A} e {num_B} é {resultado}"
 
 console.log('\nResultado da Soma entre',so1,'e',so2,'é',soma)
+console.log(`\nResultado da Soma entre ${so1} e ${so2} é ${soma}`)
 console.log('\nResultado da Subtração entre',su1,'e',su2,'é',subtracao)
 console.log('\nResultado da Multiplicação entre',m1,'e',m2,'é',multiplicacao)
 console.log('\nResultado da Divisão entre',d1,'e',d2,'é',divisao,'\n')
