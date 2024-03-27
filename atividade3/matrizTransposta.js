@@ -7,7 +7,7 @@ const A =[
 function transporMatriz(A){
     let i = 0
     //Imprime matriz
-    console.log("Matriz:\n\n")
+    console.log("Matriz:\n")
     while(A[i] !== undefined){
         console.log(A[i])
         i+=1
