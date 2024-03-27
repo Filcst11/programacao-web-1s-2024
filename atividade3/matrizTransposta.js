@@ -1,7 +1,9 @@
+//Escreva qualquer matriz com j=2
 const A =[  
     [1,2],
     [3,4],
-    [5,6]
+    [5,6],
+    [7,8]
 ] 
 
 function transporMatriz(A){
@@ -14,8 +16,8 @@ function transporMatriz(A){
     }
     
     //Cria matriz transposta
-    i = 0  
-    let B = [[],[]] 
+    let B = [[],[]]
+    i = 0 
     //Anda entre as linhas
     while(A[i] !== undefined){
         let j = 0
@@ -28,6 +30,7 @@ function transporMatriz(A){
         
         i+=1
     }  
+
     //imprime matriz transposta  
     console.log("\n\nMatriz Transposta:\n")
     i=0
