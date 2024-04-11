@@ -3,7 +3,7 @@ const app = express()
 const calc = require('./util/calculadora')
 
 app.get('/', function(req,res){
-    res.send('Página inicial')
+    res.send('Página inicial da calculadora\nCaso você queira usar a calculadora, escreva no diretório a operação desejada e dois números\nexemplo: localhost:8080/somar/2/4')
 })
 
 app.get('/somar/:a/:b', function(req,res){
