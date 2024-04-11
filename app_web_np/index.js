@@ -23,8 +23,10 @@ app.get('/verifica-numero-primo/:n', function(req, res){
 
 
 
-
+//define a porta
 const PORT = 8080
+
+//faz a aplicação ficar escutando a porta definida
 app.listen(PORT,function(){
     console.log('app rodando na porta', PORT)
 })
