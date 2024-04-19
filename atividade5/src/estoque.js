@@ -30,6 +30,7 @@ function alteraProduto(idEscolha,novaQtd){
         if(produtos[i].id == idEscolha){
             break
         }
+        i +=1
     }
     if(produtos[i] === undefined){
         return false
