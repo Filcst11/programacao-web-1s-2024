@@ -15,9 +15,9 @@ app.get('/',function(req,res){
 app.get('/contato', function(req, res){
     let telefone = '(61)99291-6996'
     let email = 'filcosta11@gmail.com'
-    
+    let link = 'https://filcosta.com.br'
    
-    res.render('contato.html', {telefone, email})
+    res.render('contato.html', {telefone, email, link})
 })
 
 
